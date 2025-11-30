@@ -19,7 +19,7 @@ def load_model():
     
     if _model is None or _feature_extractor is None:
         logger.info("Loading Segformer model...")
-        model_name = "nvidia/segformer-b2-finetuned-ade-512-512"
+        model_name = "nvidia/segformer-b0-finetuned-ade-512-512"
         _feature_extractor = SegformerFeatureExtractor.from_pretrained(model_name)
         _model = SegformerForSemanticSegmentation.from_pretrained(model_name)
         _model.eval()
