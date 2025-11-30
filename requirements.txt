@@ -1,0 +1,17 @@
+# FastAPI関連
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 画像処理
+Pillow==10.1.0
+opencv-python-headless==4.8.1.78
+
+# 機械学習モデル
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.35.0
+timm==0.9.12
+
+# その他
+numpy==1.24.3
